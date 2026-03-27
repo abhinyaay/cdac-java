@@ -12,7 +12,7 @@ public class Calculator {
         int choice;
 
         do {
-            System.out.println("\n===== CALCULATOR =====");
+            System.out.println("\n Enter Your choice");
             System.out.println("1. Add (int, int)");
             System.out.println("2. Add (float, float)");
             System.out.println("3. Add (int, float)");
