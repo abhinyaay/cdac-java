@@ -639,3 +639,46 @@ Java Model Exception: Error in Java Model (code 1006): <project root> [in SelfLe
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-03-24 23:30:33.944
 !MESSAGE <project root> [in SelfLearningAssignment1] is not on its project's build path
+!SESSION 2026-03-31 22:06:41.922 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/abhinyaay/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/abhinyaay/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-31 22:06:45.566
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-31 22:06:51.773
+!MESSAGE Logback config file: /Users/abhinyaay/Desktop/javaEclipse/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-03-31 22:07:09.102
+!MESSAGE Creating lock file /Users/abhinyaay/.config/jgit/config.lock failed
+!STACK 0
+java.io.IOException: Creating directories for /Users/abhinyaay/.config/jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:172)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:433)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-03-31 22:07:09.129
+!MESSAGE Cannot save config file 'FileBasedConfig[/Users/abhinyaay/.config/jgit/config]'
+!STACK 0
+java.io.IOException: Creating directories for /Users/abhinyaay/.config/jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:172)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:433)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
